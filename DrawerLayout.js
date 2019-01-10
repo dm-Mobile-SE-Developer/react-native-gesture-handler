@@ -24,7 +24,7 @@ import {
   PanGestureHandler,
   TapGestureHandler,
   State,
-} from 'react-native-gesture-handler';
+} from 'dm-react-native-gesture-handler';
 
 const DRAG_TOSS = 0.05;
 
