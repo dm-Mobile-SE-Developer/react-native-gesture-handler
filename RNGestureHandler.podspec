@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/dm-Mobile-SE-Developer/react-native-gesture-handler", :tag => "#{s.version}" }
   s.source_files = "**/*.{h,m}"
-
+  s.exclude_files = ['node_modules/**']
   s.dependency "React"
 
 end
