@@ -2,6 +2,7 @@ package com.swmansion.gesturehandler;
 
 import android.graphics.Matrix;
 import android.graphics.PointF;
+import android.support.annotation.Nullable;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,8 +11,6 @@ import android.view.ViewParent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-
-import javax.annotation.Nullable;
 
 public class GestureHandlerOrchestrator {
 
